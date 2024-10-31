@@ -1,0 +1,227 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1a1a2e;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: black; /* Solid black background */
+    padding: 20px 0;
+    position: fixed; /* Fixed position */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White logo text on black background */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e94560; /* Highlight color on hover */
+}
+
+/* Adjustments for content to start after the header */
+.container {
+    padding-top: 80px; /* Offset for fixed header height */
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background-color: #0f3460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.hero-details .about-me, .hero-details .my-work {
+    width: 45%;
+}
+
+.hero-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero-details p {
+    font-size: 16px;
+}
+
+.hero-content .btn {
+    background-color: #e94560;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* About Section */
+#about {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about-stats {
+    display: flex;
+    justify-content: center;
+}
+
+.about-stats div {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.about-stats h3 {
+    font-size: 36px;
+    color: #e94560;
+}
+
+.about-stats p {
+    font-size: 16px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #0f3460;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#portfolio p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#contact .btn {
+    background-color: #e94560;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #162447;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
