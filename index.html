@@ -266,6 +266,52 @@
     background-color: #fff;
     color: #333;
 }
+#contact {
+  background-color: #0d0d0d;
+  padding: 40px;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(5, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
 
 
         footer {
@@ -403,11 +449,27 @@
                 </div>
             </div>
     
-            
-    
             <!-- Add more projects as needed -->
         </div>
-    </section>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/mldejjwy" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          
+              <button type="submit">Send Message</button>
+            </form>
+          </section>
+             
+    
     
 
     <footer>
